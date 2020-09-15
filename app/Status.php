@@ -10,6 +10,6 @@ class Status extends Model
 
     public function Task()
     {
-        return $this->hasMany('App\Task');
+        return $this->belongsTo('App\Task');
     }
 }

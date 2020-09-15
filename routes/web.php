@@ -24,6 +24,6 @@ Route::resource('tasks', 'TaskController');
 Route::resource('statuses', 'StatusController');
 
 Route::middleware(['auth'])->group(function () {
-    Route::resource('tasks', 'TaskController');
+    Route::resource('task', 'TaskController');
     Route::resource('statuses', 'StatusController');
 });

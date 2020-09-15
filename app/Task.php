@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Task extends Model
 {
-    public $fillable = ['name', 'description', 'status_id'];
+    public $fillable = ['task_name', 'task_description', 'status_id'];
 
     public function Status()
     {
